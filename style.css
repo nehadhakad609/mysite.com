@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* p {
+    color: #444;
+} */
+
+.section-header {
+    color: #0c2e8a;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+hr {
+    border: 2px solid #50d8af;
+    width: 63px;
+}
+
+#header-top {
+    border-bottom: 1px solid #eee;
+}
+
+.h-b-style {
+    margin-left: 5px !important;
+}
+
+/* .message-box{
+    font-size: 13px !important;
+}
+.contact-info{
+    font-size: 13px !important;
+} */
+.social-icons {
+    margin-left: 260px;
+}
+
+.social-icons i {
+    padding: 6px;
+    border-right: 1px solid#eee;
+}
+
+.icon-color {
+    color: #50d8af;
+}
+
+.r-icons {
+    padding: 0px 14px !important;
+}
+
+/* ######### navbar ######### */
+
+.navbar-toggler {
+    background-color: #0c2e8a;
+
+}
+
+#navbar {
+    z-index: 997;
+    background-color: #fff;
+}
+
+.fixed-top {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn-icon {
+    color: #50d8af !important;
+}
+
+.navbar-brand {
+    color: #0c2e8a;
+}
+
+.navbar-brand span {
+    color: #50d8af;
+}
+
+.active {
+    color: #50d8af;
+}
+
+.site_title a {
+    font-size: 42px !important;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+nav ul li a:hover {
+    color: #50d8af;
+}
+
+/* ##### banner section ###### */
+
+#banner-section {
+    background: url("./img/hero-carousel/2.jpg");
+}
+
+#banner-section h1 {
+    font-size: 63px;
+    color: #0c2e8a;
+    padding: 75px 255px;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+#banner-section h1 span {
+    color: #50d8af;
+    text-decoration: underline;
+
+}
+
+.banner-btn a {
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.banner-start-btn {
+    background-color: #0c2e8a;
+    border: 2px solid #0c2e8a;
+}
+
+.banner-start-btn:hover {
+    background-color: transparent;
+    color: #0c2e8a;
+    text-decoration: none;
+}
+
+.banner-projects-btn {
+    background-color: #50d8af;
+    border: 2px solid #50d8af;
+    margin-left: 10px;
+}
+
+.banner-projects-btn:hover {
+    background-color: transparent;
+    color: #50d8af;
+    text-decoration: none;
+}
+
+/* ### about-section ###### */
+#about-section {
+    margin-top: 64px;
+}
+
+#about-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #0c2e8a;
+    font-family: "Raleway", sans-serif;
+}
+
+#about-section h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+#about-section ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#about-section ul li i {
+    color: #50d8af;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* #### services section #### */
+#services-section {
+    margin-top: 63px;
+
+}
+
+.services-box {
+    box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+    background-color: #fff;
+}
+
+.services-box:hover {
+    bottom: 15px;
+    position: relative;
+}
+
+.icon {
+    font-size: 50px;
+    padding: 41px 0px 53px 26px;
+    color: #50d8af;
+}
+
+.service-data {
+    padding: 18px 51px;
+}
+
+.service-data h2 {
+    font-size: 22px;
+    color: #444;
+    font-weight: 700;
+}
+
+.s-next-section {
+    margin-top: 60px;
+}
+
+/* ### portfolio section #### */
+#portfolio-section {
+    margin-top: 63px;
+}
+
+.p-btn {
+    text-align: center;
+}
+
+.portfolio-btn {
+    padding: 12px 29px;
+
+}
+
+.portfolio-btn:hover {
+    background-color: #50d8af;
+    color: #fff;
+}
+
+.p-active {
+    background-color: #50d8af;
+    color: #fff;
+}
+
+.p-box {
+    margin-top: 40px;
+}
+
+.first-box {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px
+}
+
+.first-box img {
+    position: relative;
+    transition: all 0.2s linear;
+}
+
+.first-box:hover img {
+    bottom: 15px;
+
+}
+
+.p-inner-box {
+    width: 92.5%;
+    bottom: -150px;
+    height: 100px;
+
+    background-color: #50d8af;
+    position: absolute;
+    transition: all 0.2s linear;
+}
+
+.first-box:hover .p-inner-box {
+    bottom: 0px;
+
+}
+
+.p-inner-box h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0px 10px 20px;
+}
+
+.p-inner-box h4 {
+    color: #fff;
+    font-size: 15px;
+    margin: 16px 0px 10px 20px;
+}
+
+/* ##################testimonial section################### */
+.testimonials {
+    margin-top: 63px;
+}
+
+.test-box {
+    box-shadow: 0px 0px 1px rgb(73 78 92 / 15%);
+    padding: 25px;
+}
+
+.test-img {
+    text-align: center !important;
+}
+
+.test-box p {
+    text-align: center !important;
+    padding: 25px 15px 10px 15px;
+    font-style: italic;
+    margin: 0 auto 15px auto;
+}
+
+.test-box-img {
+    width: 24px;
+}
+
+.inner-img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.test-box h3 {
+    font-size: 18px;
+    color: #111;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.test-box h4 {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 25px;
+    color: #999;
+}
+
+/* #################cta section######################### */
+
+#p-blue-box {
+    width: 100%;
+    /* height: 800px; */
+    margin-top: 63px;
+    background-color: #081e5b;
+
+}
+
+#p-blue-box h1 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 0px 20px 0px;
+}
+
+.action p {
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.action-btn {
+    color: #fff;
+    padding: 13px 36px;
+    text-align: center;
+    border: 3px solid white;
+    font-weight: 600;
+    transition: all 0.2s linear;
+
+}
+
+.action-btn:hover {
+    background-color: #50d8af;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #50d8af;
+}
+
+/* ### our team #### */
+
+#ourteam-section {
+    margin-top: 63px;
+}
+
+.contact-row {
+    margin-bottom: 50px;
+}
+
+.myteam {
+    padding: 10px;
+}
+
+.details {
+    background-color: #50d8af;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.details h4 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.details h5 {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.team-icons a {
+    color: #fff;
+}
+
+/* ########## contact us ####### */
+#contact-section {
+    margin-top: 63px;
+}
+
+.contact-address {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.r-border {
+    border-right: 2px solid #999;
+}
+
+.c-a-icons {
+    color: #50d8af;
+    font-size: 45px !important;
+    padding: 10px;
+}
+
+.contact-address h3 {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-address h4 {
+    font-size: 18px;
+    color: #000;
+}
+
+.contact-address h4 a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s linear;
+}
+
+.contact-address h4 a:hover {
+    color: #50d8af;
+}
+
+.g-img {
+    width: 100%;
+    height: 400px;
+}
+
+/* ######### form section ##### */
+#form-section {
+    margin-top: 35px;
+}
+
+/* ###### footer ####### */
+#footer-section {
+    background-color: #f2f5f8;
+    text-align: center;
+    font-size: 14px;
+}
+
+.copyright {
+    padding-top: 10px;
+}
+
+.credits {
+    padding-bottom: 30px;
+}
+
+.credits a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+@media(max-width: 500px) {
+
+    #banner-section h1 {
+        padding: 0px 0px;
+    }
+
+    .social-icons {
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #about-section h2 {
+        text-align: center;
+    }
+
+    .i-m-g {
+        text-align: center;
+    }
+
+    .services-box {
+        flex-direction: column;
+    }
+
+    .icon {
+        justify-content: center;
+        display: flex;
+        padding: 19px 0px 0px 0;
+    }
+
+    .service-data {
+        padding: 18px 32px;
+        text-align: center;
+    }
+
+    #p-blue-box {
+        text-align: center !important;
+    }
+
+    .action {
+        padding: 0px 43px;
+    }
+
+    .p-a-btn {
+        text-align: center;
+        margin: -21px 0px 35px;
+    }
+
+    .my-team {
+        padding: 0px 28px;
+    }
+
+    .r-border {
+        border-right: none;
+    }
+
+    .test-box p {
+        padding: 13px 30px;
+    }
+
+    .email-margin {
+        margin-top: 22px;
+    }
+}
